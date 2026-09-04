@@ -28,6 +28,20 @@ namespace Franquias.Api.Data
             modelBuilder.Entity<UnidadeFranqueada>()
                 .HasIndex(u => u.Cnpj)
                 .IsUnique();
+
+            // Injetando dados de exemplo no banco
+            modelBuilder.Entity<Usuario>().HasData(
+                new Usuario
+                {
+                    Id = 1,
+                    Nome = "Administrador Mestre",
+                    Email = "admin@franquias.com",
+                    SenhaHash = "123456", // Senha simples apenas para fins de teste
+                    PerfilAcesso = Perfil.AdministradorFranqueadora, // Perfil de nível máximo
+                    Ativo = true,
+                    DataCriacao = new DateTime(2026, 9, 4, 12, 0, 0, DateTimeKind.Utc)
+                }
+            );
         }
     }
-}
+}     

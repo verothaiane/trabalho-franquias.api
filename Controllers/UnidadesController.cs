@@ -2,10 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Franquias.Api.Data;
 using Franquias.Api.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Franquias.Api.Controllers
 {
     // Define a rota base deste controller 
+    [Authorize] // Tranca todos os endpoints desta classe.
     [Route("api/[controller]")]
     [ApiController]
     public class UnidadesController : ControllerBase
