@@ -13,6 +13,8 @@ namespace Franquias.Api.Data
         // Informando quais classes vão virar tabelas
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<UnidadeFranqueada> Unidades { get; set; }
+        public DbSet<Fornecedor> Fornecedores { get; set; }
+        public DbSet<ProdutoServico> Produtos { get; set; }
 
         // Configurações extras das tabelas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
