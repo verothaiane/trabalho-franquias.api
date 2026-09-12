@@ -19,6 +19,7 @@ namespace Franquias.Api.Data
         public DbSet<Venda> Vendas { get; set; }
         public DbSet<Royalty> Royalties { get; set; }
         public DbSet<ItemVenda> ItensVenda { get; set; }
+        public DbSet<ChamadoSuporte> Chamados { get; set; }
 
 
         // Configurações extras das tabelas
