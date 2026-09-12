@@ -15,6 +15,9 @@ namespace Franquias.Api.Data
         public DbSet<UnidadeFranqueada> Unidades { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<ProdutoServico> Produtos { get; set; }
+        public DbSet<Estoque> Estoques { get; set; }
+        public DbSet<Venda> Vendas { get; set; }
+        public DbSet<ItemVenda> ItensVenda { get; set; }
 
         // Configurações extras das tabelas
         protected override void OnModelCreating(ModelBuilder modelBuilder)

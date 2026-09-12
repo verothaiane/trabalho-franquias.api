@@ -12,6 +12,6 @@ namespace Franquias.Api.Models
         public string Cidade { get; set; } = string.Empty;
         public string Contato { get; set; } = string.Empty;
         public DateTime DataInicio { get; set; }
-        public bool Ativa { get; set; } = true; // Define se a unidade está operando ou não
+        public bool Ativo { get; set; } = true; // Define se a unidade está operando ou não
     }
 }
