@@ -23,19 +23,19 @@ Para executar o projeto você precisará ter instalado em sua máquina:
 
 ## Comandos para iniciar a API
 **1. Clonar o repositório:**
-`bash
+`
 git clone https://github.com/verothaiane/trabalho-franquias.api.git
 cd trabalho-franquias.api
 `
 
 **2. Criar e aplicar o banco de dados:**
  É necessário recriar o banco de dados e aplicar as migrations em um ambiente limpo.
-`bash
+`
 dotnet ef database update
 `
 
 **3. Iniciar a API:**
-`bash
+`
 dotnet run
 `
 
