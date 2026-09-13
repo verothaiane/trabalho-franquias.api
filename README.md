@@ -1,7 +1,7 @@
 # Sistema de Gestão de Franquias - API REST
 
 ## Objetivo do Projeto
-Desenvolver um sistema back-end completo para gestão de franquias utilizando C#, com arquitetura organizada, banco de dados relacional, autenticação, autorização, validações, regras de negócio, consultas e documentação da API. A proposta é simular um ambiente corporativo real no qual uma franqueadora precisa acompanhar diferentes unidades sem depender de planilhas, mensagens isoladas ou sistemas desconectados. O sistema centraliza informações da franqueadora e de suas unidades franqueadas, permitindo administrar usuários, unidades, produtos ou serviços, estoque, vendas, taxas de franquia, royalties, fornecedores, chamados e indicadores gerenciais[cite: 2].
+Desenvolver um sistema back-end completo para gestão de franquias utilizando C#, com arquitetura organizada, banco de dados relacional, autenticação, autorização, validações, regras de negócio, consultas e documentação da API. A proposta é simular um ambiente corporativo real no qual uma franqueadora precisa acompanhar diferentes unidades sem depender de planilhas, mensagens isoladas ou sistemas desconectados. O sistema centraliza informações da franqueadora e de suas unidades franqueadas, permitindo administrar usuários, unidades, produtos ou serviços, estoque, vendas, taxas de franquia, royalties, fornecedores, chamados e indicadores gerenciais.
 
 ## Tecnologias Utilizadas
 O projeto demonstra a aplicação prática de diversas tecnologias e conceitos de desenvolvimento back-end:
