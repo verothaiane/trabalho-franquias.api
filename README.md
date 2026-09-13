@@ -27,15 +27,18 @@ Para executar o projeto você precisará ter instalado em sua máquina:
 git clone https://github.com/verothaiane/trabalho-franquias.api.git
 cd trabalho-franquias.api
 `
+
 **2. Criar e aplicar o banco de dados:**
  É necessário recriar o banco de dados e aplicar as migrations em um ambiente limpo.
 `bash
 dotnet ef database update
 `
+
 **3. Iniciar a API:**
 `bash
 dotnet run
 `
+
 **4. Acessar a Documentação e Testar:**
 Após iniciar a API, abra o navegador e acesse a interface do Swagger gerada automaticamente para testar os endpoints:
 * **URL Padrão:** `http://localhost:5058/swagger` *(verifique a porta exata exibida no terminal após o comando dotnet run).*
